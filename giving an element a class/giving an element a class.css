@@ -1,0 +1,6 @@
+.highlight { color: green; }
+
+.main .highlight { color: red; } /* Descendant combinator */
+.footer > .highlight { color: blue; } /* Child combinator */
+
+.special.left.menu { color: rgb(227, 106, 25); }
